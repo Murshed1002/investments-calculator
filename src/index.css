@@ -21,8 +21,8 @@ body {
 
 
 #header img {
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: contain;
   background-color: transparent;
 }
@@ -33,7 +33,7 @@ body {
 
 #user-input {
   padding: 1rem;
-  max-width: 30rem;
+  max-width: 60rem;
   margin: 2rem auto;
   border-radius: 4px;
   background: linear-gradient(180deg, #307e6c, #2b996d);
@@ -65,12 +65,13 @@ body {
 }
 
 #result {
-  max-width: 50rem;
+  max-width: 500rem;
   margin: 2rem auto;
   padding: 1rem;
   table-layout: fixed;
   border-spacing: 1rem;
   text-align: right;
+  align-self: center;
 }
 
 #result thead {
